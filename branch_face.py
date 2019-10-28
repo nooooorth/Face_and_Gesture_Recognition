@@ -81,9 +81,9 @@ def face_recognition_module():
         # 结束后处理
         print('结束时间：' + str(datetime.datetime.now()))
         # 设标志位，后续返回
-        return 123
         video_capture.release()
         cv2.destroyAllWindows()
+        return 123
     else:
         print('Camera Open Failure!')
         exit(-1)
