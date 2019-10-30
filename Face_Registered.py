@@ -1,3 +1,6 @@
+'''
+利用OpenCV自带的分类检测器完成人脸捕捉并保存十张人脸图片
+'''
 import cv2
 
 camera = cv2.VideoCapture(0)
