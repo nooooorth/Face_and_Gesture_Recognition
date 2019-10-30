@@ -16,5 +16,12 @@ glob2 文件处理库
 [3] 运行主目录下的branch_face.py文件，可在控制台看到输出识别到人脸姓名以及时间  
 注：match = face_recognition.compare_faces(known_face_encodings, i,tolerance=0.4） tolerance越低检测越严格，反之相反，区间[0,1]，本例使用的tolerance=0.4
 ## 手势识别
+<<<<<<< HEAD
 ### testing 
+=======
+### 运行环境
+同人脸识别
+### 第三方库
+### 运行说明
+>>>>>>> Active
 ## 备注
