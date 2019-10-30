@@ -3,6 +3,7 @@ face recognition and gesture recognition
 ## 项目说明
 	完成基于人脸识别的身份认证的手势识别
 ## 人脸识别
+实时识别视频中出现的人脸，若人脸已注册，显示‘match‘并输出当时时间，若识别失败显示’unknown‘
 ### 运行环境 
 window 10，pycharm，python 3.7
 ### 第三方库
@@ -16,12 +17,11 @@ glob2 文件处理库
 [3] 运行主目录下的branch_face.py文件，可在控制台看到输出识别到人脸姓名以及时间  
 注：match = face_recognition.compare_faces(known_face_encodings, i,tolerance=0.4） tolerance越低检测越严格，反之相反，区间[0,1]，本例使用的tolerance=0.4
 ## 手势识别
-<<<<<<< HEAD
-### testing 
-=======
+暂无介绍
 ### 运行环境
-同人脸识别
+
 ### 第三方库
+
 ### 运行说明
->>>>>>> Active
+
 ## 备注
